@@ -33,3 +33,20 @@ figure{
     text-align: center;
     font-style: italic;
 }
+
+h3{
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    font-size: small;
+}
+
+ol{
+    margin: auto;
+    width: fit-content;
+    font-size: small;
+}
