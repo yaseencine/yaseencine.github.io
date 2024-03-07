@@ -50,3 +50,44 @@ ol{
     width: fit-content;
     font-size: small;
 }
+
+form {
+    margin: auto;
+    width: fit-content;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f9fa; 
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 6px;
+}
+
+input[type="reset"],
+input[type="submit"] {
+    background-color: #1f1a1a; 
+    color: #ced7e1; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}

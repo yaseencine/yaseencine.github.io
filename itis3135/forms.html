@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yacine Niang's Young Nemo || ITIS3135 Forms</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <header> 
+        <h1> Yacine Niang's Young Nemo || ITIS3135 </h1>
+        <nav>
+            <a href="index2.html">Home</a>
+            ||
+            <a href="introduction.html">Introduction</a>
+            ||
+            <a href="contract.html">Contract</a>
+            ||
+            <a href="about.html">About</a>
+            ||
+            <a href="tables.html">Tables</a>
+            ||
+            <a href="forms.html">Forms</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Form</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required placeholder="Your name"><br>
+            
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required placeholder="example@example.com"><br>
+            
+            <label for="interests">Interests:</label><br>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label><br>
+            <input type="checkbox" id="movies" name="interests" value="movies">
+            <label for="movies">Movies</label><br>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label><br>
+            
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            
+            <label for="country">Country:</label><br>
+            <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+            </select><br>
+            
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <p><em>Let us be there on your journey to better health</em></p>
+        <nav>
+            <a href="https://webpages.charlotte.edu/yniang/">Charlotte Webpage</a>
+            ||
+            <a href="https://github.com/yaseencine">Github</a>
+            ||
+            <a href="https://yaseencine.github.io/">Github.io</a>
+            ||
+            <a href="https://www.freecodecamp.org/yaseencine">Freecodecamp</a>
+            ||
+            <a href="https://www.codecademy.com/profiles/yacineNiang">CodeAcademy</a>
+            ||
+            <a href="https://www.linkedin.com/in/yacine-niang-80233a223/">LinkedIn</a>
+
+        </nav>
+        <p>Page Built by <a href="niangincorporated.com/company.html"> Niang Corporation </a>&copy; 2024</p>
+        <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
+            <img style="border:0;width:88px;height:31px" src="images/unnamed.png" alt="Valid HTML!">
+        </a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" />
+        </a>
+    </footer>
+</body>
+<script>
+    document.getElementById("validation_link_html")
+</script>
+</html>
